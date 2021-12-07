@@ -1,0 +1,6 @@
+s=input("enter colors:")
+s1=input("enter colors:")
+s2=s.split()
+s3=s1.split()
+s4=set(s2)-set(s3)
+print(s4)
